@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/backgorund"
+>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+    <TextView
+        android:id="@+id/txtBismi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGold"
+        android:fontFamily="cursive"
+        android:textSize="12sp"
+        android:layout_marginBottom="30dp"
+        android:text="In the name of Allah"/>
+    <TextView
+        android:id="@+id/txtLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtBismi"
+
+        android:textColor="@color/colorGold"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:text="Because you have shared in our lives"/>
+    <TextView
+        android:id="@+id/txtLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGold"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/txtLine1"
+        android:textSize="18sp"
+        android:text="by your friendship and love, we"/>
+    <TextView
+        android:id="@+id/txtMansoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGold"
+        android:layout_below="@+id/txtLine2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Mansooor"/>
+    <TextView
+        android:id="@+id/txtAnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtMansoor"
+        android:textColor="@color/colorGold"
+        android:fontFamily="cursive"
+
+        android:text="and"/>
+    <TextView
+        android:id="@+id/txtYasmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtAnd"
+        android:textColor="@color/colorGold"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        android:text="Roja Yasmin"/>
+    <TextView
+        android:id="@+id/txtLine6"
+        android:layout_below="@+id/txtYasmin"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:text="invite you to witness"/>
+    <TextView
+        android:id="@+id/txtLine7"
+        android:layout_below="@+id/txtLine6"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:text="invite you to witness"/>
+    <TextView
+        android:id="@+id/txtLine8"
+        android:layout_below="@+id/txtLine7"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:text="the beginning of our new life together"/>
+
+    <TextView
+        android:id="@+id/txtLine9"
+        android:layout_below="@+id/txtLine8"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+
+
+        android:text="at our marriage"/>
+
+    <TextView
+        android:id="@+id/txtLine10"
+        android:layout_below="@+id/txtLine9"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="on Sunday, the 3rd Feb 2019"/>
+
+    <TextView
+        android:id="@+id/txtLine11"
+        android:layout_below="@+id/txtLine10"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+
+        android:text="at 11 o'clock in the morning"/>
+    <TextView
+        android:id="@+id/txtLine12"
+        android:layout_below="@+id/txtLine11"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+
+        android:text="Annalaxmi Raja Pandiyan"/>
+
+    <TextView
+        android:id="@+id/txtLine13"
+        android:layout_below="@+id/txtLine12"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+
+        android:text="Thirumana Mahal"/>
+    <TextView
+        android:id="@+id/txtLine14"
+        android:layout_below="@+id/txtLine13"
+        android:textColor="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+
+        android:text="Valaja Nagaram, Ariyalur"/>
+</RelativeLayout>
+</RelativeLayout>
